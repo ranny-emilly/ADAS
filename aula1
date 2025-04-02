@@ -1,0 +1,18 @@
+//p incluir biblioteca
+#include <bits/stdc++.h>
+using namespace std;
+
+int main ( ){
+    //declarar a variável "a" como inteira
+    int a;
+
+    //funcao de leia
+    cin >> a;
+
+    //funcao de saída 
+    cout << a;
+
+
+return 0;
+
+}
