@@ -1,0 +1,20 @@
+//loop no while
+
+int i=10
+
+//while
+
+while (i>0) {
+cout << i << "in"
+
+i = i - 1
+
+
+//enquanto
+
+int i
+
+for (i=10; i>0; i=i-1) {
+
+cout<<i<<"in"
+}
