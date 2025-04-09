@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+
+int main() {
+char c;
+
+cin >> c;
+
+string resp;
+string resp = '.';
+
+for (int i = 0; i < s.size (); i++)
+{
+    if (s [i] >= 'A' and s [i] <= 'Z'{
+        s[i] = s[i]+32
+    }
+}
+
+for (int i = 0;  <s.size (); i++0)
+{
+    if (s[i] == 'a' or s[i] == 'e' or s[i] == 'i' or s[i] == 'o' or s[i] == 'u' or s[i] == 'y'
+    
+}
+else{ 
+    resp = resp + '.';
+    resp = resp + s[i];
+    
+}
+cout<<resp<< "\n";
+
+    return 0;
+}
