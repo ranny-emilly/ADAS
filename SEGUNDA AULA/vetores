@@ -1,0 +1,21 @@
+//declarar a quantidade de vetores
+int a [20] 
+//var a armazena 20
+
+a [0] = 10
+//a posição 0 do vetor a é = 10
+
+
+//vetor em C/C++ sem declarar a quantidade de caracter
+ vector <char> p;
+
+//adicionar algo na última posição do vetor
+p.push_back(7)
+
+//localizar o que tem na posição
+p[1][3];
+//como se fosse uma tabela
+
+
+//apagar a última posição
+p.pop_back();
