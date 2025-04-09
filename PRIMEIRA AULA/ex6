@@ -1,31 +1,31 @@
 #include <bits/stdc++.h>
+using namespace std;
 
 int main() {
-char c;
+    string s;
+    cin >> s;
 
-cin >> c;
+    string resp = "";
 
-string resp;
-string resp = '.';
-
-for (int i = 0; i < s.size (); i++)
-{
-    if (s [i] >= 'A' and s [i] <= 'Z'{
-        s[i] = s[i]+32
+    // Convert all uppercase letters to lowercase
+    for (int i = 0; i < s.size(); i++) {
+        if (s[i] >= 'A' && s[i] <= 'Z') {
+            s[i] = s[i] + 32;
+        }
     }
-}
 
-for (int i = 0;  <s.size (); i++0)
-{
-    if (s[i] == 'a' or s[i] == 'e' or s[i] == 'i' or s[i] == 'o' or s[i] == 'u' or s[i] == 'y'
-    
-}
-else{ 
-    resp = resp + '.';
-    resp = resp + s[i];
-    
-}
-cout<<resp<< "\n";
+    // Add '.' before consonants
+    for (int i = 0; i < s.size(); i++) {
+        if (s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' || s[i] == 'u' || s[i] == 'y') {
+            // Skip vowels
+            continue;
+        } else {
+            resp = resp + '.';
+            resp = resp + s[i];
+        }
+    }
+
+    cout << resp << "\n";
 
     return 0;
 }
