@@ -19,3 +19,12 @@ p[1][3];
 
 //apagar a última posição
 p.pop_back();
+
+
+//matriz - declarar
+
+vetor <vetor<char>>p;
+
+//ou
+
+int P [10] [20]
