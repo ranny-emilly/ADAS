@@ -1,18 +1,32 @@
 //p incluir biblioteca
 #include <bits/stdc++.h>
-using namespace std;
+namespace std;
 
-int main ( ){
-    //declarar a variável "a" como inteira
-    int a;
+int minain ( ){
+    //declarar a variável "k" como inteira
+    int k, hora;
+    float min;
 
-    //funcao de leia
-    cin >> a;
+ //funcao de leia
+    cin >> k;
 
-    //funcao de saída 
-    cout << a;
+hora = 21;
 
+(k >=0 && k<10){
+    min= k;
+    cout << hora ":" << "0" << min;
+   } else if (k>=10 && k<60){
+    min= k;
+    cout << hora ":" << min;
+   } else if (k>=60 && k<=70){
+    hora;
+    min= k-60;
+    cout << hora ":" << "0" << min;
+   } else {
+    hora;
+    min= k-60;
+    cout << hora ":" << min;
+   }
 
-return 0;
 
 }
