@@ -1,0 +1,12 @@
+//ordenar vetor
+int v [20]
+sort(v, v+20);
+
+//ordenar vector 
+
+vector <int > a;
+//begin retorna a posição inicial e a.end a final
+sort (a.begin(), a.end ());
+
+
+//se for string ele ordena na ASCII 
