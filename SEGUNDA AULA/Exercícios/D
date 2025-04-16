@@ -4,14 +4,20 @@ using namespace std;
 
 int main ( ){
     //declarar a variável "k" como inteira
-    int k, hora, min
+    int k, hora, min;
 
  //funcao de leia
     cin >> k;
 
-if (k>=60){
-    
- 
+int hora = k/60
+int min = k%60
+
+string ans '21'
+
+if (hora > 21 ) { ans[1] = '2';
+
+
+
 }
 
     //funcao de saída
