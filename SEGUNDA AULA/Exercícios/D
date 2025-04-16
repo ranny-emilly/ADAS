@@ -4,7 +4,7 @@ using namespace std;
 
 int main ( ){
     //declarar a variável "k" como inteira
-    int k;
+    int k, hora, min
 
  //funcao de leia
     cin >> k;
