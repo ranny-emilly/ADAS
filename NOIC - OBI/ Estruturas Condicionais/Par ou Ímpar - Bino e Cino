@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+    
+   int bino, cino, soma;
+   
+   cin >> bino;
+   cin >> cino;
+   
+   soma = bino + cino;
+   
+   if (soma %2 == 0){
+       cout << "Bino";
+   } else {
+       cout << "Cino";
+   }
+    
+    
+    
+    return 0;
+}
