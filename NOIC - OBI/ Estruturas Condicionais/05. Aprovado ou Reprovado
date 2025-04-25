@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+    
+   float n1, n2, result;
+    cin >> n1, n2;
+    
+    result = n1 + n2 /2;
+    
+    if (result >= 7){
+        cout << "Aprovado"; 
+    }
+    else if (result < 7 && result > 4){
+        cout << "Recuperacao";
+    } else {
+        cout << "Reprovado";
+    }
+    
+    return 0;
+}
