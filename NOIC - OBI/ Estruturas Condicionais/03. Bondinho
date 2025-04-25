@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    
+    int alunos, monitores, som;
+    
+    cin >> alunos;
+    cin >> monitores;
+    
+    som = alunos + monitores;
+    
+    if (som > 50){
+        cout << "N";
+    } else if (som >= 1 && som <= 50) {
+        cout << "S";
+        
+    }
+    
+    
+    
+    return 0;
+}
