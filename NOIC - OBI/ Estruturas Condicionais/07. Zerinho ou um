@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+    
+   int na, nb, nc;
+   
+   cin >> na >> nb >> nc;
+   
+   if (na == nb && na == nc){
+       cout << "*";
+   }
+   else if (na == nb && nc != nb){
+       cout << "C";
+   } else if (nb == nc && nc != na){
+       cout << "A";
+   } else if (nc == na && nb != na){
+       cout << "B";
+   }
+   
+    return 0;
+}
