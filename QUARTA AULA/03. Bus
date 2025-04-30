@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int n, m, a, i, soma, qtdo;
+    queue<int> q;
+    
+    cin >> n >> m;
+    soma = 0;
+    qtdo = 1; 
+    
+   
+    for (i = 0; i < n; i++) {
+        cin >> a;
+        q.push(a);
+        soma += a;
+        
+      
+        while (soma > m) {
+            soma -= q.front(); 
+            q.pop();
+            qtdo++;  
+        }
+    }
+    
+    cout << qtdo << endl;        
+    return 0;
+}
