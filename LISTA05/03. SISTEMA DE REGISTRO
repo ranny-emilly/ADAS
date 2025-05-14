@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n, i, a;
+    string m;
+    map<string, int> nome; 
+    
+    cin >> n;
+    cin.ignore(); 
+        
+    for (i = 0; i < n; i++) {
+        cin >> m;
+        nome[m]++; 
+        if (nome[m] < 1) {
+            cout << m << endl;
+        } if (nome[m] < 1) {  
+            cout << "OK" << endl;
+    }
+    
+    }
+    
+
+    
+    return 0;
+}
